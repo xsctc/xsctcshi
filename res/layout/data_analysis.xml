@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/data_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="土壤温度"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/data_read2"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="土壤湿度"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.32"
+                android:text="日期"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/anal_DateEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.45"
+                android:ems="10" />
+
+            <Button
+                android:id="@+id/anal_DateBtn"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.37"
+                android:text="..." />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="时间"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/anal_TimeEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/anal_TimeBtn"
+            android:layout_width="41dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.37"
+            android:text="..." />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.58"
+                android:text="温度"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/anal_tem1"
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.37"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/anal_tem2"
+                android:layout_width="67dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/anal_tem3"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.40"
+                android:ems="10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/anal_tem4"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/anal_tem5"
+                android:layout_width="67dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/anal_tem6"
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/anal_tem7"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/anal_tem8"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.52"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/anal_tem9"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.27"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/anal_tem10"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/tem_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预测温度"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.11"
+                android:text="湿度"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/anal_hum1"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/anal_hum2"
+                android:layout_width="78dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.04"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/anal_hum3"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/anal_hum4"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/anal_hum5"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/anal_hum6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/anal_hum7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <EditText
+                    android:id="@+id/anal_hum8"
+                    android:layout_width="49dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.41"
+                    android:ems="10" />
+
+                <EditText
+                    android:id="@+id/anal_hum9"
+                    android:layout_width="47dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.55"
+                    android:ems="10" />
+
+                <EditText
+                    android:id="@+id/anal_hum10"
+                    android:layout_width="54dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.34"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/hum_result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="预测湿度"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/anal_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查詢" />
+
+            <Button
+                android:id="@+id/anal_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="預測" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

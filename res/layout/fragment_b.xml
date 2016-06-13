@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/blue2" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="图      像"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button_fragb1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/btn_fragb"
+            android:padding="5dp"
+            android:text="点击拍照"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button_fragb2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignLeft="@+id/button_fragb1"
+            android:layout_below="@+id/button_fragb1"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/btn_fragb"
+            android:padding="5dp"
+            android:text="点击查询"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</LinearLayout>
