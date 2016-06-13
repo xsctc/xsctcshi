@@ -25,7 +25,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.AdapterView.OnItemClickListener;
 
-
+//uqriouqweioruoiq
 
 	public class BluetoothList extends Activity {
 	    // µ˜ ‘”√
