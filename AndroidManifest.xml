@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.xsctcshi.welcome"
+            android:name="com.example.Activity.SplashActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,8 +23,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.example.xsctcshi.MyActivity"></activity>
-        <activity android:name="com.example.xsctcshi.Login"></activity>
+        <activity android:name="com.example.Activity.MainActivity"></activity>
+        <activity android:name="com.example.Activity.GuideActivity"></activity>
         <activity android:name="com.example.Activity.data_get"></activity>
         <activity android:name="com.example.Activity.data_analysis"></activity>
         <activity android:name="com.example.Activity.data_search"></activity>
